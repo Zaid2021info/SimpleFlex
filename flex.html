@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        nav{
+            height:50px ;
+            width:100% ;
+            background-color: burlywood;
+            /* display: flex; */
+            /* background-color: 2px solid red; */
+            /* border: 2px solid red; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            border: 2px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li{
+            
+           display: inline-block;
+           padding: 6px;
+        
+            list-style-type: none;
+            /* display: inline-block; */
+            
+        }
+        li > a:hover{
+            background-color: chartreuse;
+            color: rgb(179, 38, 38);
+            border-radius: 10px;
+            
+        }
+            
+
+
+        a{text-decoration: none;
+            padding: 10px;
+        }
+        #subbut{
+            background-color: rgb(69, 202, 162);
+            border-radius: 20px;
+            color: white;
+            height: 22px;
+        }
+        #subbut:hover{
+            color: rgb(0, 255, 76);
+        }
+        #main{
+            display: flex;}
+
+        .sub1{
+            height: 50vh;
+            width: 50%;
+            border: 2px solid greenyellow;
+            display: flex;
+            /* align-items: center; */
+            text-align: center;
+            /* justify-content: center; */
+
+        }
+        .sub2{
+            height: 50vh;
+            width: 50%;
+            border: 2px solid yellow;
+            display: flex;
+            /* align-items: center; */
+            text-align: center;
+        }
+        .IMAGE{
+            height: 50vh;
+            width: 100%;
+            /* object-fit: contain; */
+        }
+        .hifi{
+            /* border: 2px solid rgb(114, 116, 250); */
+            border-radius: 10px;
+            /* border-width: 10px */
+            border-spacing: 40px;
+            
+            
+        }
+        .stylee{
+            box-sizing: border-box;
+            height: 45px;
+            border: 3px solid black;
+            width: 300px;
+            border-radius: 10px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <nav>
+    
+        <li><a href=""> <img class="hifi" src="https://cdn.pixabay.com/photo/2023/05/03/22/43/tennis-7968714_1280.png" height="30px"   alt=""></a></li>
+        
+        
+    
+                <li><a href="">Home</a>
+                <li><a href="">ContactUs</a>
+                <li><a href="">Profile</a>
+                <li><a href="">Feedback</a>
+        
+    
+            <li>
+                <form>
+                    <input  style="outline: 2px solid red; border-radius: 20px; border: none;" type="search" size="10">
+                    <input id="subbut" type="submit" value="SUBMIT">
+                </form>
+            </li>
+        
+            
+        
+        
+                
+            
+        
+    </nav><br><br>
+    <div id="main" style="height: 50vh; border: 2px solid red;">
+
+        <div class="sub1">
+            <img class="IMAGE" src="https://cdn.pixabay.com/photo/2023/06/12/19/32/metro-8059215_1280.jpg" alt="">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta ipsa consequatur hic officia dicta reprehenderit, vel tempora in ab! -->
+
+        </div>
+        <div class="sub2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam ab iusto quia illo a. Est consectetur assumenda maiores alias?
+
+        </div>
+    </div><br><br>
+
+    <div class="sty">
+    <center> <h1 class="stylee" style="color: rgb(162, 36, 137);"> THANK YOU</h1></center>
+</div>
+   
+</body>
+</html>
